@@ -1,0 +1,128 @@
+body	{
+	font-family: Lato;
+
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.4),
+			 0px 4px 6px rgba(0,0,0,0.2),
+			 0px 9px 11px rgba(0,0,0,0.2);
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.1),
+			 0px 2px 3px rgba(0,0,0,0.1),
+			 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+
+#content	{
+	text-align: center;
+	/* nice part about 25% is it scales as the window shrinks*/
+	padding-top: 35%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.jumbotron	{
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+
+	background-color: #32C8BB;
+
+	text-align: center;
+}
+
+.jumbotron img {
+	margin-top: 4rem;
+	padding-bottom: 15rem;
+	width: 100%;
+
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.about h1 {
+	font-size: 4rem;
+	margin-top: 8%;
+}
+
+.about .biotext {
+	color: black;
+	text-align: center;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+	padding-left: 2rem;
+}
+
+.about p {
+	margin-top: 7%;
+	font-size: 1.6rem;
+}
+
+.about hr {
+	margin-top: 5rem;
+}
+
+.address {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.about	img	{
+	height: 80%;
+	width: 80%;
+	border-radius: 15px;
+	margin-top: 2rem;
+	/*margin-left: 3rem;*/
+}
+
+.about .menubtn {
+	margin: 1.5rem;
+	align-items: center;
+}
+
+.linksout img   {
+	height: 4rem;
+	width: 4rem;
+	margin: 1rem;
+}
+
+.deals	{
+	margin-top: 7rem;
+	text-align: center;
+}
+
+
+
+/*.menuwindow	{
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	height: 400px;
+	width: 1px;
+    min-width: 100%;
+    *width: 100%;
+}*/
+
+/* 		fuck with me please!!!!!  */
+iframe	{
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	height: 520px;
+	width: 1px;
+    min-width: 100% !important;
+	*width: 100%;
+	overflow: scroll;
+  	-webkit-overflow-scrolling: touch;
+  	align-content: center;
+}
+#footer {
+	text-align: center;
+}
